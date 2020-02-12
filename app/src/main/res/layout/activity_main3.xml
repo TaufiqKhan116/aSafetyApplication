@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="#ffffAA">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select inputfield and pick phone number from contact list pressing the 'Contact picker' :"
+        android:textColor="#ff4f4f"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact picker"
+        android:textAllCaps="false"
+        android:background="#ccffff"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Number1"/>
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Number2" />
+
+    <EditText
+        android:id="@+id/n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Number3" />
+
+    <EditText
+        android:id="@+id/n4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Number4" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Press 'Invoke' everytime to save numbers."
+            android:textSize="15dp"
+            android:textColor="#ff4f4f"/>
+
+        <Button
+            android:id="@+id/invoke"
+            android:background="#5edba3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invoke"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

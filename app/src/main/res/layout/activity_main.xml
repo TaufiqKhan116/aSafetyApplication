@@ -1,0 +1,248 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#0a1526">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_marginLeft="130dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="75dp"
+            android:textColor="#ffffff"
+            android:text="A step towards Safety"
+            android:textSize="20dp"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:background="#ffffAA"
+            android:id="@+id/enterNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter new number..."
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="+" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/currentNumber"
+        android:layout_marginLeft="5dp"
+        android:background="#ffffff"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Current Number..."/>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current co-ordinate :"
+        android:textColor="#a8c71c"
+        android:textSize="30dp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffAA"
+        android:hint="Co-ordinate here..." />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Location :"
+        android:textColor="#a8c71c"
+        android:textSize="30dp"
+        android:textIsSelectable="false"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffAA"
+        android:hint="Location here..."/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/button"
+        android:background="#a8c71c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Location" />
+</LinearLayout>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#a8f0dc"
+    android:id="@+id/parent">
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_marginLeft="130dp"
+            android:layout_width="75dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="75dp"
+            android:textColor="#368dff"
+            android:text="A step towards Safety"
+            android:textSize="20dp"
+            android:textIsSelectable="false" />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/enterNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="To add contacts press the button"
+            android:textSize="19dp"
+            android:inputType="textPersonName"
+            android:textColor="#0000ff"/>
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Add Contacts"
+            android:textAllCaps="false"
+            android:background="#6898f7"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current co-ordinate :"
+        android:textColor="#629ee3"
+        android:textSize="30dp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffAA"
+        android:hint="Co-ordinate here..." />
+    <TextView
+        android:layout_marginTop="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Location :"
+        android:textColor="#629ee3"
+        android:textSize="30dp"
+        android:textIsSelectable="false"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffAA"
+        android:hint="Location here..."/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/button"
+        android:background="#5edba3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Location" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Emergency!!! Call"
+            android:textColor="#fa6464"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/call"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fa6464"
+            android:text="999"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/touch"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_weight="0"
+        android:text="Tap here to send  location and release  to call"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="140dp"
+        android:textAlignment="viewStart"
+        android:background="#62b4de"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#0000ff"/>
+
+</LinearLayout>
